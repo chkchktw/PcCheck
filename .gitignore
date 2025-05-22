@@ -1,0 +1,44 @@
+# Python 編譯與快取
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 打包產物（pyinstaller）
+dist/
+build/
+*.spec
+
+# Windows 執行檔
+*.exe
+
+# Excel 輸出檔案
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+
+# VSCode / PyCharm 設定
+.vscode/
+.idea/
+
+# 系統暫存
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook（如未來加入）
+.ipynb_checkpoints/
+
+# 測試報告 / 日誌檔
+*.log
+*.tmp
+*.bak
+
+# HTML 輸出報告
+# *.html  
